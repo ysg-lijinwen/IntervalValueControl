@@ -9,5 +9,4 @@
 5. 关键边界值的处理
 
 # 效果
-![image](screenshots/1.png)
-![image](screenshots/2.png)
+![image](screenshots/1.png) ![image](screenshots/2.png)
