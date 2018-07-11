@@ -8,12 +8,33 @@
     tools:context="com.clover.demo.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="自定义区间滑动取值控件"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.clover.demo.widget.RangeSelectionView xmlns:rsv="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rsvCommission"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@android:color/white"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        rsv:backLineColor="@color/transparent_background_70_blue"
+        rsv:circleColor="@color/auxiliary_blue"
+        rsv:connectLineColor="@color/auxiliary_blue"
+        rsv:endValue="2000"
+        rsv:endValueColor="@color/main_text_black"
+        rsv:isInteger="true"
+        rsv:leftUnit="￥"
+        rsv:resultValueColor="@color/auxiliary_blue"
+        rsv:startValue="0"
+        rsv:startValueColor="@color/main_text_black"
+        rsv:whileCircleColor="@color/white" />
 
 </LinearLayout>

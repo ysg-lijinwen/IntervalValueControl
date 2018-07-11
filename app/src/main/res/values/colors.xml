@@ -3,4 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <!-- 70%透明-蓝 -->
+    <color name="transparent_background_70_blue">#4001DA9C</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 辅助色-绿 -->
+    <color name="auxiliary_blue">#01da9c</color>
+    <!-- 辅助色-黑 -->
+    <color name="auxiliary_black">#25272d</color>
+    <!--文字主色-->
+    <color name="main_text_black">@color/auxiliary_black</color>
 </resources>
